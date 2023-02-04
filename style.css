@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    padding: 0 2px;  
+    background-color: #f2f2f2;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    line-height: 120%;
+    color: #333333;
+}
+
+.container {
+    max-width: 640px;
+    margin: 32px auto;
+    padding: 0 8px;
+}
+
+.title {
+    font-size: 32px;
+    line-height: 120%;
+    font-weight: 700;
+    text-align: center;
+    color: #333333;
+    margin: 0;
+    margin-bottom: 16px;
+       
+}
+
+.new-note-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 320px;
+    margin: auto;
+}
+
+.new-note {
+    background: #FFFFFF;
+    border: 2px solid #4F4F4F;
+    border-radius: 16px;
+    font-weight: 400;
+    font-size: inherit;
+    line-height: inherit;
+    font-family: inherit;
+    color: inherit;
+    padding: 16px;
+    
+}
+
+.new-note-button {
+    width: 300px;
+    height: 45px;
+    background: #4F4F4F;
+    border-radius: 16px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: inherit;
+    line-height: inherit;
+    margin-top: 8px;
+    margin-bottom: 16px;
+    padding: 8px 16px;
+}
+
+.note-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.note {
+    background-color: #FFFFFF;
+    border: 2px solid #4F4F4F;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-basis: 300px;   
+} 
+
+
+.note-container button {
+    width: 68px;
+    height: 30px;
+    border-radius: 16px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    background-color: #E0E0E0;
+    border: none;
+    color: #4F4F4F;
+}
+
+.note p {
+    margin: 0;
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+  }
